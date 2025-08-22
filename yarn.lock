@@ -82,10 +82,17 @@
   dependencies:
     "@types/chai" "*"
 
-"@types/chai@*", "@types/chai@^4.2.11":
+"@types/chai@*":
   version "4.2.11"
   resolved "https://registry.npmjs.org/@types/chai/-/chai-4.2.11.tgz#d3614d6c5f500142358e6ed24e1bf16657536c50"
   integrity sha512-t7uW6eFafjO+qJ3BIV2gGUyZs27egcNRkUdalkud+Qa3+kg//f129iuOFivHDXQ+vnU3fDXuwgv0cqMCbcE8sw==
+
+"@types/chai@^5.0.0":
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/@types/chai/-/chai-5.2.2.tgz#6f14cea18180ffc4416bc0fd12be05fdd73bdd6b"
+  integrity sha512-8kB30R7Hwqf40JPiKhVzodJs2Qc1ZJ5zuT3uzw5Hq/dhNCl3G3l83jfpdI1e20BP348+fV7VIL/+FxaXkqBmWg==
+  dependencies:
+    "@types/deep-eql" "*"
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
@@ -96,6 +103,11 @@
   version "0.0.31"
   resolved "https://registry.npmjs.org/@types/cson/-/cson-0.0.31.tgz#ad0c475a6b3736cecd9b754eae53a5ae8a6df891"
   integrity sha512-/HZsi3XbITcXPW477omGMiCwfngXaB/HTmGab6BtRD4sIaIFvODQwbmHNG6n+A9pFB5utI2FxLRFfVRvNKb0Dg==
+
+"@types/deep-eql@*":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@types/deep-eql/-/deep-eql-4.0.2.tgz#334311971d3a07121e7eb91b684a605e7eea9cbd"
+  integrity sha512-c9h9dVVMigMPc4bwTvC5dxqtqJZwQPePsWjPlpSOnojbor6pGqdk541lfA7AqFQr5pB1BRdq0juY9db81BwyFw==
 
 "@types/expect@^1.20.4":
   version "1.20.4"
